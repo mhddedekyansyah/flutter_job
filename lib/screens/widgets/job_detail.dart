@@ -47,7 +47,7 @@ class JobDetail extends StatelessWidget {
                         borderRadius: BorderRadius.circular(8),
                         color: Colors.grey.withOpacity(0.3)
                       ),
-                      child: Image.asset(job.logoUrl.toString()),
+                      child: Image.network(job.logoUrl.toString()),
                     ),
                     SizedBox(width: 10,),
                     Text(job.company.toString(), style: TextStyle(

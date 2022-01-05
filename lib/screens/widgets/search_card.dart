@@ -46,7 +46,7 @@ class SearchCard extends StatelessWidget {
                ),
                child: Row(
                  children: [
-                   Image.asset('assets/icons/search.png',width:20, color: Colors.grey,),
+                   Image.network('assets/icons/search.png',width:20, color: Colors.grey,),
                    SizedBox(width: 10,),
                    Text('Search', style: TextStyle(color: Colors.grey),)
                  ],

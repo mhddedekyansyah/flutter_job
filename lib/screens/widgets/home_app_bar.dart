@@ -67,7 +67,7 @@ class HomeAppBar extends StatelessWidget {
                    color: Colors.grey.withOpacity(0.5),
                    borderRadius: BorderRadius.circular(8)
                  ),
-                 child: Image.asset('assets/images/avatar.png'),
+                 child: Image.network('assets/images/avatar.png'),
                ),
              
             ],
